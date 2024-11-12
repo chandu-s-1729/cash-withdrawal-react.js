@@ -1,0 +1,98 @@
+/* Write your CSS here */
+
+.bg-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  background-color: #150b3e;
+  border-radius: 10px;
+  color: #fff;
+  padding: 30px;
+  width: 30%;
+}
+
+.profile-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-card {
+  color: #7c3aed;
+  font-family: 'Roboto';
+  font-size: 18px;
+  padding: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #c7d2fe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.profile-container {
+  color: #c4c4c4;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.balance-title {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  padding-top: 16px;
+}
+
+.balance-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.balance-amount {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 34px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.currency {
+  color: #585076;
+  margin-top: 0px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.withdraw-title {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.choose-sum {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.denomination-list {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}

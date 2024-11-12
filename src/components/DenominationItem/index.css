@@ -1,0 +1,15 @@
+/* Write your CSS here */
+
+.denomination-btn {
+  color: #d4d2db;
+  background-color: #382f5a;
+  font-family: 'Roboto';
+  font-size: 26px;
+  padding: 8px 20px;
+  font-weight: 500;
+  margin: 10px;
+  width: 180px;
+  border: 2px solid #c4c4c4;
+  border-radius: 5px;
+  cursor: pointer;
+}
